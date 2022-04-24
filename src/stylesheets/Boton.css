@@ -1,0 +1,28 @@
+.boton-contenedor {
+    height: 83px;
+    display: flex; /*Para alinear el texto a la derecha siempre*/
+    flex: 1 1; /*Propiedad flex para distribuir uniformemente el tamaño de los elementos dentro del div*/
+    justify-content: center; /*Alinear los elementos al centro de izquierda a derecha*/
+    align-items: center; /*Alinear los elementos al centro de arriba hacia abajo*/
+    font-size: 38px;
+    font-weight: bold;
+    background-color: #1b1b32;
+    color: white;
+    border-radius: 25px; /*Alinear los bordes de los botones*/
+    border: 2px solid white; /**/
+    margin: 4px; 
+    cursor: pointer; /*Propiedad para cambiar el cursor a la mano*/
+    user-select: none; /*Propiedad que permite que no se pueda seleccionar el texto con el mouse, asi se parece mas a un botón*/
+}
+
+.boton-contenedor:hover {
+    background-color:rgb(68, 27, 233);
+}
+
+.operador {
+    background-color:darkcyan;
+}
+
+.operador:hover {
+    background-color: coral;
+}

@@ -1,0 +1,21 @@
+.boton-clear {
+    font-size: 1.8em; /* Es una unidad relativa, en este caso será 1.6 veces el tamaño de la letra de su contenedor */
+    height: 80px;
+    display: flex;
+    flex: 1;
+    background-color:aqua;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    border: 2px solid white;
+    user-select: none;
+}
+
+.boton-clear:hover {
+    background-color: blueviolet;
+}

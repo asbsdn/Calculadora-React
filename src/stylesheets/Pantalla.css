@@ -1,0 +1,16 @@
+.input {
+    height: 75px;
+    width: auto;
+    display: flex;
+    align-items: center;/*Alinea el contenido al centro*/
+    justify-content: flex-end;/*Alinea el contenido a la derecha*/
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2em;
+    background-color: #0a0a23; /*Color del fondo*/
+    color: white; /*Color del texto*/
+    padding: 11px 30px 11px 11px; /*Margenes superior, derecha, inferior izquierda, sentido agujas del 🕛*/
+    margin: 1px solid #888;/*Para darle margen, tamaño, estilo y color*/
+    box-shadow: -1px 4px 1px 1px white;/*Si queremos darle una sombra*/
+}
